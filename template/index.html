@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Advertisement</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', Arial, sans-serif;
+            background: #f4f4f4;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(45deg, #ffcc00, #007bff);
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+
+        .header p {
+            margin: 10px 0 0;
+            font-size: 1.2rem;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .courses {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 10px;
+        }
+
+        .course {
+            width: calc(50% - 10px);
+            background: #f9f9f9;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .course:hover {
+            background: #ffcc00;
+            color: white;
+            transform: scale(1.05);
+            transition: 0.3s;
+        }
+
+        .course h3 {
+            margin: 10px 0;
+            font-size: 1rem;
+        }
+
+        .cta {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .cta a {
+            text-decoration: none;
+            background: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 1.2rem;
+        }
+
+        .cta a:hover {
+            background: #0056b3;
+        }
+
+        .footer {
+            background: #f4f4f4;
+            text-align: center;
+            padding: 10px;
+            font-size: 0.9rem;
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>खुशखबर! खुशखबर! खुशखबर!</h1>
+            <p>फक्त ₹999 मध्ये तुमचं स्वप्न साकार!</p>
+        </div>
+        <div class="content">
+            <h2>Available Courses</h2>
+            <div class="courses">
+                <div class="course">
+                    <h3>Tally Prime with GST</h3>
+                </div>
+                <div class="course">
+                    <h3>C Programming, Java, Python</h3>
+                </div>
+                <div class="course">
+                    <h3>MS Office आणि CCC</h3>
+                </div>
+                <div class="course">
+                    <h3>Advanced Excel</h3>
+                </div>
+                <div class="course">
+                    <h3>AutoCAD 2D आणि 3D</h3>
+                </div>
+                <div class="course">
+                    <h3>Photoshop आणि CorelDraw</h3>
+                </div>
+                <div class="course">
+                    <h3>Mobile App Development</h3>
+                </div>
+                <div class="course">
+                    <h3>Canva Design</h3>
+                </div>
+                <div class="course">
+                    <h3>Professional Video Editing</h3>
+                </div>
+            </div>
+            <div class="cta">
+                <a href="tel:7060033009">आता कॉल करा!</a>
+            </div>
+        </div>
+        <div class="footer">
+            <p>📍 पत्ता: सुजयनगर-७, बायपास रोड, अकलुज | 📞 संपर्क: 7060033009</p>
+            <p>*नियम व अटी लागू*</p>
+        </div>
+    </div>
+</body>
+
+</html>
